@@ -1,0 +1,109 @@
+body {
+    background: #D3D3D3;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#title {
+    font-family: 'Xanh Mono', monospace;
+    font-size: 70px;
+    padding: 20px 5% 0 5%;
+}
+
+#instructions {
+    font-size: 40px;
+    font-weight: 700;
+    width: auto;
+    height: auto;
+    color: rgb(72, 72, 72);
+}
+
+svg {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background: #D3D3D3;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.yin {
+    fill: black;
+    stroke-width: 0;
+}
+
+.yang {
+    fill: white;
+    stroke-width: 0;
+}
+
+.back {
+    fill:#D3D3D3;
+}
+
+mark {
+    background-color: black;
+    border-radius: 25px;
+    padding: 1px 10px 0px 10px;
+    color: white;
+    font-weight: 700;
+}
+
+a {
+    font-weight: 700;
+    color: black;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    width: 0;
+}
+
+input[type="radio"]+label {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    padding: 5px 15px;
+    margin: 0px 5px 15px 0px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+input[type="radio"]:checked+label {
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: black;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+footer {
+    margin: auto;
+    height: 20px 0px 40px 0px;
+}
+
+#inputs {
+    padding: 50px 0px;
+}

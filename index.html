@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Breathing With The Way</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <h1 id="title">Breathing with The Way</h1>
+
+  <p id="instructions">Inhale</p>
+  <div id="chart"></div>
+
+  <div id="inputs">
+
+    <div>
+      <input type="radio" id="box" name="breathing-pattern" value="box" checked>
+      <label for="box">Box Breathing</label>
+
+      <input type="radio" id="normal" name="breathing-pattern" value="normal">
+      <label for="normal">Normal Breathing</label>
+    </div>
+
+    <div>
+      <input type="range" min="1" max="5" value="5" class="slider" id="nSeconds">
+      <label id="sLabel" for="nSeconds">5 seconds per breath</label>
+    </div>
+
+  </div>
+
+
+  <footer>
+    <p>Made with &hearts; for <mark>H138</mark> by
+      <a href="https://github.com/maddikia" target="_blank">Maddie Ramos</a>
+    </p>
+  </footer>
+
+
+  <script src="yinyang.js"></script>
+</body>
+</html>
